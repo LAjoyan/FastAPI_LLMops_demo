@@ -1,5 +1,5 @@
 from pydantic_ai import Agent
-from customer_suport.backend.constants import MODEL_MEDIUM
+from customer_support.backend.constants import MODEL_MEDIUM
 from dotenv import load_dotenv
 from mlflow.genai.prompts import load_prompt
 

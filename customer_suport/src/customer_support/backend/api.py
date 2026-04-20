@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from customer_suport.backend.agents import support_agent
-from customer_suport.src.customer_suport.backend.middlewares import logging_middleware
+from customer_support.backend.agents import support_agent
+from customer_suport.src.customer_support.backend.middlewares import logging_middleware
 
 app = FastAPI()
 logging_middleware(app=app)
