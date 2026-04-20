@@ -5,5 +5,6 @@ MODEL_MEDIUM="openrouter:nvidia/nemotron-3-nano-30b-a3b:free"
 MODEL_LARGE="openrouter:nvidia/nemotron-3-super-120b-a12b:free"
 
 
-LLM_JUDGE="openrouter:nvidia/nemotron-3-nano-30b-a3b:free"
-MONITORING_PATH = Path(__file__).parents[1]
+LLM_JUDGE="openrouter:/nvidia/nemotron-3-nano-30b-a3b:free"
+
+MONITORING_PATH = Path(__file__).parents[1] / 'monitoring'
